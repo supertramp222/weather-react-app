@@ -5,7 +5,6 @@ import "./SearchEngine.css";
 export default function SearchEngine() {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState("");
-  const [loaded, setLoaded] = useState(false);
 
   function showTemp(response) {
     console.log(response.data);
