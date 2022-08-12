@@ -1,38 +1,58 @@
 .App {
-  text-align: center;
+  margin-top: 40px;
+  max-width: 650px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App body {
+  font-family: "Inter", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .card-body {
+  padding: 30px 30px;
+  margin: 0;
+  min-height: 800px;
+  border: solid #000 2px;
+  background: radial-gradient(
+    circle at center,
+    rgb(255, 248, 150) 0%,
+    #fbfbfb 60%
+  );
+  background-color: #fbfbfb;
+  background-position: -114px -250px;
+  background-repeat: no-repeat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App h1 {
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 154.91px;
+  display: inline;
 }
 
-.App-link {
-  color: #61dafb;
+.App h2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 45px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App h3 {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45.99px;
+  display: inline;
+}
+
+.App text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(74, 74, 74);
+}
+
+.App li {
+  list-style: none;
+}
+
+.App li:first-letter {
+  text-transform: capitalize;
 }
