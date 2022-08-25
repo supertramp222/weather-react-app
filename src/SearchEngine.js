@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./SearchEngine.css";
 
-export default function SearchEngine() {
-  const [city, setCity] = useState("");
+export default function SearchEngine(props) {
+  const [city, setCity] = useState(props.city);
   const [weather, setWeather] = useState("");
 
   function showTemp(response) {

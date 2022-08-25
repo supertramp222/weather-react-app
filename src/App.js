@@ -4,7 +4,7 @@ import SearchEngine from "./SearchEngine";
 export default function App() {
   return (
     <div className="App">
-      <SearchEngine />
+      <SearchEngine city="New York" />
       <p>
         Code is open-sourced, by Katharina Ramer.{" "}
         <a
